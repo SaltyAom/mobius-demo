@@ -5,6 +5,15 @@ Using Mobius to acheive End-to-end type safety, for GraphQL with TypeScript, **n
 - Node.js
 - [Bun](https://bun.sh): For running Elysia backend for serving GraphQL Yoga server
 
+## Setup
+Open 2 terminal, then run dev command
+```bash
+cd frontend && bun run dev
+cd backend && bun run dev
+```
+
+Open [localhost:3000](http://localhost:3000), you should be greet with music list search allowing you to prompt for music which use GraphQL to query
+
 ## How this works
 Made possible by:
 - [Nextjs](https://nextjs.org): serve frontend
@@ -20,13 +29,3 @@ Once type is defined from Mobius, you get type safety for defining resolvers and
 Passing template literal type to client, allowing you to infers type without exposing GraphQL schema or adding additional code to your frontend.
 
 Once Mobius client is initiated, you can query GraphQL using Prisma-like syntax with full type safety for querying and response, resulting in End-to-end type safety for GraphQL without relying on code generation at all.
-
-## Setup
-Open 2 terminal, then run dev command
-```bash
-cd frontend && bun run dev
-cd backend && bun run dev
-```
-
-Open [localhost:3000](http://localhost:3000), you should be greet with music list search allowing you to prompt for music which use GraphQL to query
-
