@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.44",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/graphql-yoga": "^0.5.5",
+    "@elysiajs/static": "^0.5.3",
+    "elysia": "latest",
+    "graphql": "^16.7.1",
+    "graphql-mobius": "0.1.8",
+    "graphql-yoga": "^4.0.3"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
